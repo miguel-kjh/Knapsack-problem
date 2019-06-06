@@ -4,13 +4,6 @@ from utils import *
 import time
 
 """
-Devuelve el límite de ganancia en el subárbol arraigado con u.
-Esta función utiliza un algoritmo avido(me lo encontre en internet) 
-para encontrar un límite superior del beneficio máximo.
-[Esto es lo que tenemos que cambiar para refinarlo, tambien podemos cambiar de algoritmo]
-"""
-
-"""
 Brand and Bound 
 """
 class StrategyBestBound(Strategy):
